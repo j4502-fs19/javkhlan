@@ -29,13 +29,13 @@ body {
 }
 
 #nav li {
-  border-bottom: 1px solid #ccc;
+  border-bottom: none;
 }
 
 #nav a:link, #nav a:visited {
   display: block;
   color: #fff;
-  background-color: #98bf21;
+  background-color: #FFBF63;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
@@ -43,15 +43,15 @@ body {
   padding: 4px;
 }
 
-#nav a:hover, #nav a:visited {
-  background-color: #7a911a;
+#nav a:hover, #nav a:active {
+  background-color: #BAB0FF;
 }
 
 .caption {
   font-family: Helvetica, "Times New Roman", serif;
   color: black;
   font-style: italic;
-  text-align: right;
+  text-align: left;
   font-size: 0.8em;
   margin-top: 0;
 }
