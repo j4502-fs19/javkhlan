@@ -6,63 +6,96 @@
 
 p {
   color: #666666;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family:'Livvic', Helvetica, serif;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 15px;
 }
 
 h1 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: 'Arimo', Helvetica, sans-serif;
   text-align: center;
+  font-weight: 700;
+  top: auto;
+  color: maroon;
 }
 
 h2 {
-  font-family: Georgia, "Times New Roman", serif;
-  text-align: center
+  font-family: 'Titillium', Helvetica, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 0.8em;
 }
 
 body {
-  background-color: #FFF5D5;
+  background-color: white;
 }
 
 #nav {
-  padding: 0;
+  padding-left: 30px;
+  font-family: 'Livvic', Helvetica, sans-serif;
+  color: #666666;
   list-style-type: none;
 }
 
-#nav li {
+#nav_li {
+  color: #666666;
+  font-family: 'Livvic', Helvetica, sans-serif;
   border-bottom: none;
+  text-align: left;
+  margin: auto;
 }
 
 #nav a:link, #nav a:visited {
-  display: block;
-  color: #fff;
-  background-color: #FFBF63;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  font-family: Helvetica, Arial, sans-serif;
-  padding: 4px;
+	  display:block;
+    color: maroon;
+    background-color: #FFC865;
+    font-weight: 400;
+    text-align:left;
+    text-decoration: none;
+    padding: 4px;
+    font-family: "Livvic", Arial, sans-serif;
 }
 
 #nav a:hover, #nav a:active {
-  background-color: #BAB0FF;
+  background-color: lightgrey;
 }
 
 .caption {
-  font-family: Helvetica, "Times New Roman", serif;
+  font-family: 'Livvic', Helvetica, sans-serif;
   color: black;
   font-style: italic;
-  text-align: left;
   font-size: 0.8em;
-  margin-top: 0;
+  text-align: center;
 }
 
 #footer {
-  color: black;
-  font-family: Helvetica, "Times New Roman", serif;
+  color: maroon;
+  font-family: 'Livvic', Helvetica, sans-serif;
+  text-align: center;
   font-size: 0.8em;
   border-top: 1px solid black;
+  margin-top: 5px;
+  background-color: white;
 }
 
-img {
+#img {
   border: none;
+  text-align: center;
+}
+
+div {
+  background-color: #FFF5D5;
+  width: 50%;
+  height: 50%;
+  padding: inherit;
+  border: 3px solid gray;
+  margin: auto;
+  margin-top: 50px;
+  display: block;
+}
+
+#old {
+  text-align: right;
+  padding-right: 10px;
 }
