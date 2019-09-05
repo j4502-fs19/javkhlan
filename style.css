@@ -71,7 +71,8 @@ body {
 
 #footer {
   color: maroon;
-  font-family: 'Livvic', Helvetica, sans-serif;
+  font-family: 'Chilanka', Helvetica, sans-serif;
+  font-weight: 400;
   text-align: center;
   font-size: 0.8em;
   border-top: 1px solid black;
