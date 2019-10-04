@@ -1,9 +1,3 @@
-/*styles go here*/
-
-/* p {
-  color: red;
-} */
-
 p {
   color: #666666;
   font-family:'Livvic', Helvetica, serif;
@@ -85,7 +79,7 @@ body {
   text-align: center;
 }
 
-div {
+#div {
   background-color: #FFF5D5;
   width: 50%;
   height: 50%;
@@ -99,4 +93,24 @@ div {
 #old {
   text-align: right;
   padding-right: 10px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 600px) {
+	.container {
+		flex-direction: row;
+		justify-content: center;
+	}
+}
+
+@media (min-width: 800px) {
+
+	.item {
+		margin: auto;
+	}
 }
