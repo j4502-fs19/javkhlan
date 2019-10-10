@@ -117,10 +117,6 @@ body {
 	.item {
 		margin: auto;
 	}
-  .graphics {
-    grid-template-columns: auto;
-}
-}
 
 .graphics {
   padding: 0px;
