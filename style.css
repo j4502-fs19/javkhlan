@@ -105,12 +105,10 @@ body {
 	.container {
 		flex-direction: row;
 		justify-content: center;
-	}
+  }
 
-  #graphics {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  .graphics {
+    grid-template-columns: auto;
   }
 }
 
@@ -119,8 +117,12 @@ body {
 	.item {
 		margin: auto;
 	}
+  .graphics {
+    grid-template-columns: auto;
+}
+}
 
-#graphics {
+.graphics {
   padding: 0px;
   margin: 0px;
   list-style-type: none;
