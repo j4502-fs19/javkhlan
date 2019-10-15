@@ -101,6 +101,11 @@ body {
   justify-content: center;
 }
 
+.graphics {
+  list-style-type: none;
+}
+
+
 @media (min-width: 600px) {
 	.container {
 		flex-direction: row;
@@ -121,7 +126,6 @@ body {
 .graphics {
   align-items: center;
   margin: 0px;
-  list-style-type: none;
   display: grid;
   grid-template-columns: 1fr 1fr ;
   grid-template-rows: 1fr 1fr;
