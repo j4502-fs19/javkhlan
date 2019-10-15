@@ -119,7 +119,7 @@ body {
 	}
 
 .graphics {
-  padding: 0px;
+  align-items: center;
   margin: 0px;
   list-style-type: none;
   display: grid;
