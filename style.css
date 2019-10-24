@@ -6,12 +6,47 @@ p {
   margin-left: 15px;
 }
 
+nav ul li {
+    display: block;
+    border-top: 1px #79896d solid;
+}
+
+nav a {
+    color: #f8ecc2;
+    display: block;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+header {
+    display: flex;
+    flex-flow: row;
+    background-color: #65a8a6;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.menu-trigger {
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
+}
+
+header h1 {
+    order: 2;
+    font-size: 2em;
+}
+
+nav ul {
+    display: none;
+  }
+
 h1 {
-  font-family: 'Chilanka', Helvetica, sans-serif;
+  font-family: Helvetica, 'Merriweather' sans-serif;
   text-align: center;
   font-weight: 400;
   top: auto;
-  color: maroon;
+  color: #f1f2f2;
 }
 
 h2 {
@@ -23,6 +58,7 @@ h2 {
 
 body {
   background-color: white;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 #nav {
@@ -65,7 +101,7 @@ body {
 
 #footer {
   color: maroon;
-  font-family: 'Chilanka', Helvetica, sans-serif;
+  font-family: 'Helvetica', 'Merriweather', sans-serif;
   font-weight: 400;
   text-align: center;
   font-size: 0.8em;
@@ -106,6 +142,7 @@ body {
 }
 
 
+
 @media (min-width: 600px) {
 	.container {
 		flex-direction: row;
@@ -115,7 +152,26 @@ body {
   .graphics {
     grid-template-columns: auto;
   }
+
+  .menu-trigger {
+    display: none;
 }
+
+nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        border-top: none;
+    }
+
+    header h1 {
+        order: 1;
+    }
+
+    nav {
+        order: 2;
+    }
 
 @media (min-width: 800px) {
 
@@ -150,4 +206,24 @@ body {
 #four {
 grid-area: d;
 }
+
+nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        border-top: none;
+    }
+
+    .menu-trigger {
+        display: none;
+    }
+
+    header h1 {
+        order: 1;
+    }
+
+    nav {
+        order: 2;
+    }
 }

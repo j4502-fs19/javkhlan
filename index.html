@@ -12,17 +12,27 @@
   <link href="https://fonts.googleapis.com/css?family=Livvic:400,700&display;swap" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css?family=Chilanka|Merriweather&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="index.js" type="text/javascript"></script>
+  <script src="js/jquery.flexslider-min.js"></script>
 </head>
 
   <body>
-    <div id="div">
-      <h1>Welcome to my website!</h1>
-      <h2>Reach me at <a href ="mailto:jb2fn@mail.missouri.edu">jb2fn@mail.missouri.edu</a></h2>
-      <div class="container">
-    		<div class="item-1 item"><a href="secondpage.html">About</a></div>
-    		<div class="item-2 item"><a href="secondpage.html">Resume</a></div>
-    		<div class="item-3 item"><a href="secondpage.html">Work samples</a></div>
-      </div>
+      <header>
+    <h1>Welcome!</h1>
+<nav>
+    <a class="menu-trigger" href="#">&#9776;</a>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Work samples</a></li>
+    <li><a href="#">Resume</a></li>
+  </ul>
+</nav>
+</header>
+
+<p id="img"><a href ="mailto:jb2fn@mail.missouri.edu"><img src="images/photo.JPG" alt="Me" width="200px"/></a></p>
+<p class="caption">Me at the Stephens Lake Park</p>
       <p> Here is a joke I want to share with you: <br/> A bear walks into a bar and says, "Give me a whiskey and...cola." <br/>-"Why the big pause?"" asks the bartender.The bear shrugged. <br/>"I'm not sure; I was born with them."</p>
       <p>Here are my work samples: </p>
           <ul id="nav">
@@ -37,10 +47,15 @@
       </ul>
 
       <p>Please click <a href="secondpage.html"> here </a>to see more of my works.</p>
-      <p id="img"><a href ="mailto:jb2fn@mail.missouri.edu"><img src="images/photo.JPG" alt="Me" width="200px"/></a></p>
-      <p class="caption">Me at the Stephens Lake Park</p>
       <p id="old"><a href="oldindex.html" target="_blank">This is my old website</a></p>
-      <p id="footer">Content copyright &copy; 2019 Javkhlan Bold-Erdene.</p>
-</div>
+      <p id="footer">Content copyright &copy; 2019 Javkhlan Bold-Erdene <a href ="mailto:jb2fn@mail.missouri.edu">jb2fn@mail.missouri.edu</a></p>
+      <script>
+      $(document).ready(function () {
+      	$('.flexslider').flexslider({
+      		animation: 'fade',
+      		controlsContainer: '.flexslider'
+      	});
+      });
+      </script>
     </body>
 </html>
