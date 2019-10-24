@@ -42,7 +42,7 @@ nav ul {
   }
 
 h1 {
-  font-family: Helvetica, 'Merriweather' sans-serif;
+  font-family: Helvetica, 'Merriweather', sans-serif;
   text-align: center;
   font-weight: 400;
   top: auto;
