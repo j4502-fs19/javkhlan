@@ -10,10 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Arimo:400,700&display=swap" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700&display=swap" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css?family=Livvic:400,700&display;swap" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Chilanka|Merriweather&display=swap" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" type="text/css" href="style.css"/>
   <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
   <script src="index.js" type="text/javascript"></script>
@@ -23,26 +20,18 @@
 
   <body>
       <div id="container">
-        <nav >
-          <a class="menu-trigger" href="#">&#9776;</a>
-          <div class="topnav">
+        <header>
+        <h1>JAVKHLAN BOLD-ERDENE</h1>
+        </header>
+        <nav>
+            <a class="menu-trigger" href="#">&#9776;</a>
           <ul id="nav">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="samples.html">Work samples</a></li>
             <li><a href="resume.html">Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
           </ul>
-        </div>
         </nav>
-
-<div class="authorimage">
-<img id="img" src="images/image.jpg" alt="A picture of the author" width=100%/></a>
-    <div id="bodytext">
-      <h1>JAVKHLAN BOLD-ERDENE</h1>
-      <h2>DATA JOURNALIST</h2>
-      <p>I am a graduate student at the University of Missouri studying Data journalism. I am passionate about data analysis and data visualizations as I believe they help journalists tell stories better with data. During my study here, I worked for the Columbia Missourian and Missouri Business Alert, two local digital-first newspapers in Columbia MO, as a reporter and data reporter and gained a lot experience in working with data visualization. I have professional experience in banking and volunteer experience in various community projects.</p>
-</div>
-</div>
+        <p> Thank you for your message. I'll respond to you shortly.</p>
       <p id="footer">Content copyright &copy; 2019 Javkhlan Bold-Erdene </p>
       <script>
       $(document).ready(function () {
@@ -52,19 +41,6 @@
       	});
       });
       </script>
-      <script type="text/javascript">
-$(function(){
-    var $page = jQuery.url.attr("file");
-    $('ul.navigation li a').each(function(){
-        var $href = $(this).attr('href');
-        if ( ($href == $page) || ($href == '') ) {
-            $(this).addClass('on');
-        } else {
-            $(this).removeClass('on');
-        }
-    });
-});
-</script>
     </div>
     </body>
 </html>

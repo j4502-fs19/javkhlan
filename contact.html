@@ -10,7 +10,6 @@
   <link href="https://fonts.googleapis.com/css?family=Arimo:400,700&display=swap" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700&display=swap" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css?family=Livvic:400,700&display;swap" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Chilanka|Merriweather&display=swap" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700&display=swap" rel="stylesheet">
 
@@ -23,26 +22,28 @@
 
   <body>
       <div id="container">
-        <nav >
+        <nav>
           <a class="menu-trigger" href="#">&#9776;</a>
           <div class="topnav">
           <ul id="nav">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="samples.html">Work samples</a></li>
             <li><a href="resume.html">Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
           </ul>
         </div>
         </nav>
+        <p> I would be happy to discuss about data analysis and data visualizations.<br> Reach me at <a href ="mailto:javkhlan1379@gmail.com">javkhlan1379@gmail.com</a><p>
+        <!--<form action="/action_page.php">
+          Name:<br>
+          <input type="text" name="firstname"><br>
+          Message title:<br>
+          <input type="text" name="lastname"><br>
+          Message:<br>
+          <input type="text" name="jobtitle"><br>
 
-<div class="authorimage">
-<img id="img" src="images/image.jpg" alt="A picture of the author" width=100%/></a>
-    <div id="bodytext">
-      <h1>JAVKHLAN BOLD-ERDENE</h1>
-      <h2>DATA JOURNALIST</h2>
-      <p>I am a graduate student at the University of Missouri studying Data journalism. I am passionate about data analysis and data visualizations as I believe they help journalists tell stories better with data. During my study here, I worked for the Columbia Missourian and Missouri Business Alert, two local digital-first newspapers in Columbia MO, as a reporter and data reporter and gained a lot experience in working with data visualization. I have professional experience in banking and volunteer experience in various community projects.</p>
-</div>
-</div>
+          <input type="submit" value="Submit">
+        </form>-->
       <p id="footer">Content copyright &copy; 2019 Javkhlan Bold-Erdene </p>
       <script>
       $(document).ready(function () {
@@ -52,19 +53,6 @@
       	});
       });
       </script>
-      <script type="text/javascript">
-$(function(){
-    var $page = jQuery.url.attr("file");
-    $('ul.navigation li a').each(function(){
-        var $href = $(this).attr('href');
-        if ( ($href == $page) || ($href == '') ) {
-            $(this).addClass('on');
-        } else {
-            $(this).removeClass('on');
-        }
-    });
-});
-</script>
     </div>
     </body>
 </html>
